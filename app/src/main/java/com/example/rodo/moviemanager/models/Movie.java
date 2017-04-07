@@ -1,10 +1,12 @@
 package com.example.rodo.moviemanager.models;
 
+import java.io.Serializable;
+
 /**
  * Created by Rodo on 04/04/2017.
  */
 
-public class Movie {
+public class Movie implements Serializable{
 
     String id;
     String title;
